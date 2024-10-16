@@ -1,0 +1,238 @@
+.body{
+    font-family:"Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.user-image{
+    width: 4em;
+    height: 2em;
+    border-radius: 1.7em;
+    margin: .5em;
+}
+.top_navbar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    justify-content: space-between;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, .3);
+    
+}
+.nav_text{
+    color: black;
+}
+.nav_text1{
+    color: blue;
+}
+
+.nav_text1 ,.nav_text{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 300ms;
+    border: hidden ;
+    border-radius: 3px ;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .2em;
+    padding-right: .2em;
+    
+}
+.nav_text1:hover{
+    color: rgb(8, 27, 41);
+}
+.nav_text1:hover, .nav_text:hover,.media_text:hover{
+     border: 1px solid black;
+     color: rgb(168, 37, 37);
+}
+.st_nav_sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8em;
+
+}
+.st_nav_sec, .l_name{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: .2em;
+    color: black;
+   
+}
+
+.nd_nav_sec{
+    width: 30em;
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    justify-content: space-around;
+    background-color: azure;
+    
+}
+.aside{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 161vh;
+    width: 10em;
+    margin-top: 6em;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .3);
+   
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-Top: 1em;
+    margin-bottom: 1.4em;
+    margin-left: .5em;
+    margin-right: .5em;
+    border-radius: 3px;
+    background-color: rgb(231, 228, 228);
+    border: 1px solid black;
+    height: 5em;
+
+
+}
+.containers:hover{
+    background-color: rgb(183, 180, 180);
+}
+.media_text{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+
+
+}
+
+.icons{
+    width: 2.5em;
+    height: 2.5em;
+    margin-top: .2em;
+}
+.section{
+    justify-content: center;
+    position: absolute;
+    top: 6em;
+    left: 12em;
+    margin: auto;
+    width: 44em;
+    height: 60em;
+    border-radius: .5em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .3);
+
+}
+.header_one{
+    text-align : center;
+    font-size: 3em; 
+}
+.paragraph_1{
+    font-size:1.6em ;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-weight: bold;
+    color: rgb(31, 30, 30);
+
+}
+.article{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 6em;
+    left: 60em;
+    padding-left:1em;
+    padding-right: 1em;
+    width: 20em;
+    height: 60em;
+    border-radius: .5em;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .3);
+
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header_2 {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    
+}
+.paragraph_2 {
+    color: black;
+    line-height: 1.6;
+    font-weight: bold
+}
+.technologies {
+    list-style-type: none;
+    padding: 0;
+}
+.technologies li {
+    background-color: #b7b5b5;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 0px;
+    left: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgb(124, 105, 197);
+    border: 1px solid;
+    height: 20em;
+    margin-top: 1.5em;
+}
+.divBox{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(8, 27, 41);
+    padding-bottom: 2em;
+
+}
+.divBoxes{
+    margin-top: 1.8em;
+    background-color: rgb(8, 27, 41);
+    border-radius: 3px;
+    border: 1px solid white;
+    transition: background-color 300ms;
+
+}
+.divBoxes:hover{
+    background-color: white;
+}
+.links{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+    transition: color 300ms;
+}
+ .links:hover{
+    color: rgb(8, 27, 41);
+}
+.footerText{
+    text-align: center;
+}
